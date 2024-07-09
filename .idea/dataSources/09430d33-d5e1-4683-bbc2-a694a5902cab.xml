@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.52">
+    <root id="1">
+      <ServerVersion>7.0.12</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="leadnews-history">
+      <LastIntrospectionLocalTimestamp>2024-07-06.23:14:39</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="5" parent="1" name="local"/>
+    <table id="6" parent="4" name="ap_associate_words"/>
+    <table id="7" parent="4" name="ap_user_search"/>
+  </database-model>
+</dataSource>
